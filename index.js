@@ -3,23 +3,7 @@ const SmartWebscraping = require("./SmartWebscraping");
 
 
 async function getResults() {
-    // const URLS = [
-    //     'https://github.com/search?o=desc&q=javascript&s=stars&type=Repositories',
-    //     'https://github.com/search?o=desc&p=2&q=javascript&s=stars&type=Repositories',
-    //     'https://github.com/search?o=desc&p=3&q=javascript&s=stars&type=Repositories'
-    // ];
-
-    // const promisesExtractions = []
-    // for (let index = 0; index < URLS.length; index++) {
-    //     promisesExtractions.push(
-    //         new SmartCrawler().extract(URL, rulesToExtract)
-    //     )
-    // }
-
-    // const results = await Promise.all(promisesExtractions)
-    // console.log(results)
-
-    //     const URL = 'https://github.com/search?o=desc&q=javascript&s=stars&type=Repositories'
+    // const URL = 'https://github.com/search?o=desc&q=javascript&s=stars&type=Repositories'
 
     // const rulesToExtract = {
     //     "title": ".flex-items-start > .flex-auto > .mb-1",
